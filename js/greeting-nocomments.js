@@ -2,12 +2,12 @@
   let myName = document.getElementById("my-name"); 
   let userName = document.getElementById("user-name"); 
   let getName = document.getElementById("get-name");
-  let myNameOtherElement = document.getElementById("heading-name");
+  let HeadingName = document.getElementById("heading-name");
   
   
   function PerformGreeting() {
     myName.innerHTML = userName.value;
-	myNameOtherElement.innerHTML = userName.value;
+	HeadingName.innerHTML = userName.value;
     event.preventDefault();
     return false;
   }
